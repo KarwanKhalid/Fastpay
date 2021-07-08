@@ -19,11 +19,20 @@ KarwanKhalid\Fastpay\FastpayServiceProvider::class
 ```
 
 Add the following constants in the **.env** file of your Laravel Project.
+For Live
+```bash
+API_DOMAIN_URL=https://secure.fast-pay.cash
+MERCHANT_MOBILE_NO=PUT_YOUR_MERCHANT_MOBILE_NO
+STORE_PASSWORD=PUT_YOUR_STORE_PASSWORD
+IS_LOCALHOST=false
+```
+
+For SANDBOX
 
 ```bash
 API_DOMAIN_URL=https://dev.fast-pay.cash
-MERCHANT_MOBILE_NO=PUT_YOUR_SANDBOX_MERCHANT_MOBILE_NO
-STORE_PASSWORD=PUT_YOUR_SANDBOX_STORE_PASSWORD
+MERCHANT_MOBILE_NO="+9641684405075"
+STORE_PASSWORD="Password1@"
 IS_LOCALHOST=true
 ```
 
