@@ -19,6 +19,7 @@ KarwanKhalid\Fastpay\FastpayServiceProvider::class
 ```
 
 Add the following constants in the **.env** file of your Laravel Project.
+
 For Live
 ```bash
 API_DOMAIN_URL=https://secure.fast-pay.cash
