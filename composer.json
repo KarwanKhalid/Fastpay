@@ -1,0 +1,32 @@
+{
+    "name": "karwankhalid/fastpay",
+    "description": "Laravel Package for Fastpay Payment Gateway API",
+    "type": "library",
+    "keywords": ["laravel", "fastpay", "paymentgateway", "api"],
+    "require": {
+        "php": ">=7.1.3"
+    },
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Karwan Khalid Othman",
+            "email": "KarwanKhalid@Yandex.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "KarwanKhalid\\Fastpay\\FastpayServiceProvider"
+            ],
+            "aliases": {
+                "Fastpay": "KarwanKhalid\\Fastpay\\Facades\\FastpayFacade"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "KarwanKhalid\\Fastpay\\": "src/"
+        }
+    }
+}
